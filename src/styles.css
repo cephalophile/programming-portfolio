@@ -1,15 +1,96 @@
+
+/*font-family: 'Federo', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
 :root{
-    --bg-color-light: #ffffff;
-    --bg-color-dark: #534D56;
-    --bg-color-med: #656176;
+    --bg-color: #ffffff;
     --primary-color: #1b998b;
-    --secondary-color: #ff8c42; 
+    --secondary-color: #cff5f1; 
 }
 
 body{
     background-color: var(--bg-color-light);
 }
+
+h1{
+    font-size: 72px;
+    font-family: 'Federo', sans-serif;
+}
+
+h2, p, a, footer, .navbar-brand, .nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.welcomeBox{
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border: 20px solid var(--bg-color-med);
+    padding: 30px;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .projectPic{
+    background-color: var(--secondary-color);
+    padding: 50px;
     max-width: 400px;
     padding: 15px;
+}
+
+.homepageProjectLink{
+    padding: 20px;
+    color:var(--bg-color);
+    background-color: var(--primary-color);
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.homepageProjectLink:hover{
+    color:var(--secondary-color);
+}
+
+
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.fa-brands{
+    color: var(--primary-color);
+    font-size: 30px;    
+}
+
+
+footer{
+    font-size: 12px;
+
+}
+
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
 }
