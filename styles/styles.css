@@ -71,13 +71,7 @@ HERO
     border: 0px solid var(--pop-color);
 }
 
-@media (max-width: 960px) {
-    .projectDescription{
-        padding: 0;
-        text-align: center;
-    }
-    
-}
+
 
 
 /*-- 
@@ -93,11 +87,11 @@ Project Links
 .projectPic{
     background-color: var(--secondary-color);
     padding: 50px;
-    max-width: 600px;
 }
 
 .homepageProjectLink{
     padding: 20px;
+    font-size: 14px;
     color:var(--bg-color);
     background-color: var(--primary-color);
     text-decoration: none;
@@ -105,6 +99,7 @@ Project Links
 }
 
 .homepageProjectLink:hover{
+    background-color: #0e8174;
     color:var(--secondary-color);
 }
 
@@ -134,4 +129,12 @@ footer{
 }
 .left{
     text-align: left;
+}
+
+@media (max-width: 960px) {
+    .projectDescription{
+        padding: 30px 20px 150px 20px;
+        text-align: center;
+    }
+    
 }
