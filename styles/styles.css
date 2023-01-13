@@ -160,5 +160,9 @@ footer{
         padding: 30px 20px 150px 20px;
         text-align: center;
     }
+
+    .projectDescription > h2{
+        font-size: 38px;
+    }
     
 }
