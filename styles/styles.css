@@ -71,10 +71,25 @@ HERO
     border: 0px solid var(--pop-color);
 }
 
+@media (max-width: 960px) {
+    .projectDescription{
+        padding: 0;
+        text-align: center;
+    }
+    
+}
+
 
 /*-- 
 Project Links 
 --*/
+.projectDescription{
+    padding: 100px 50px;
+}
+.projectDescription > h2{
+    font-family: 'Federo', sans-serif;
+    font-size: 48px;
+}
 .projectPic{
     background-color: var(--secondary-color);
     padding: 50px;
