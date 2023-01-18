@@ -40,6 +40,9 @@ ul{
     list-style: none;
 }
 
+.content{
+    margin: 30px;
+}
 /*-- 
 HERO 
 --*/
@@ -146,6 +149,23 @@ About Hero
 }
 
 /*-- PORTFOLIO --*/
+.portfolioHeading{
+    padding: 100px 25px 50px 25px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.project{
+    display: block;
+    background-color: var(--secondary-color);
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.project > h3{
+    font-size: 18px;
+}
 
 
 /*-- Footer --*/
