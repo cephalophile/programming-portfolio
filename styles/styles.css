@@ -18,12 +18,16 @@ h1{
     font-family: 'Federo', sans-serif;
 }
 
-h2, p, a, footer, .navbar-brand, .nav-link{
+h2, h3, p, a, footer, .navbar-brand, .nav-link{
     font-family: 'Montserrat', sans-serif;
 }
 
 h2{
     font-size: 18px;
+}
+
+h3{
+    margin-top: 10px;
 }
 p{
     font-size: 14px;
@@ -141,6 +145,7 @@ About Hero
     margin: auto;
 }
 
+/*-- PORTFOLIO --*/
 
 
 /*-- Footer --*/
