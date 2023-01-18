@@ -143,9 +143,7 @@ About Hero
 
 
 
-/*-- 
-Footer 
---*/
+/*-- Footer --*/
 .socialLinks{
     display: flex;
     justify-content: center;
@@ -169,6 +167,7 @@ footer{
 .left{
     text-align: left;
 }
+
 
 /*-- RESPONSIVE --*/
 
