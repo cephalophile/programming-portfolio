@@ -168,6 +168,39 @@ About Hero
 }
 
 
+/*--
+CONTACT
+--*/
+.contactHead{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    padding: 100px 30px 50px 30px;
+    
+}
+
+.contactIcons{
+    color: var(--primary-color);
+    font-size: 100px;
+    text-align: center;
+}
+
+.contactLink{
+    background-color: var(--secondary-color);
+    margin: auto;
+}
+
+.contactLink > a{
+    color: black;
+    text-decoration: none;
+}
+
+.contactButtons{
+    text-align: center;
+}
+
+
+
 /*-- Footer --*/
 .socialLinks{
     display: flex;
@@ -175,7 +208,7 @@ About Hero
     gap: 20px;
     padding: 30px;
 }
-.fa-brands{
+.footerIcon{
     color: var(--primary-color);
     font-size: 30px;    
 }
