@@ -211,8 +211,11 @@ CONTACT
     padding: 30px;
 }
 .footerIcon{
-    color: var(--primary-color);
+    color: var(--bg-color);
     font-size: 30px;    
+    background-color: var(--pop-color);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 
