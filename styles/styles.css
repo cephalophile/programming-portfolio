@@ -186,8 +186,10 @@ CONTACT
 }
 
 .contactLink{
+    display: block;
     background-color: var(--secondary-color);
     margin: auto;
+    max-width: 200px;
 }
 
 .contactLink > a{
@@ -195,8 +197,8 @@ CONTACT
     text-decoration: none;
 }
 
-.contactButtons{
-    text-align: center;
+.contactBlock{
+    display: block;
 }
 
 
@@ -271,5 +273,13 @@ footer{
 
     #profile-pic{
         margin-top: 50px;
+    }
+
+    .contactIcon{
+        padding-top: 40px;
+    }
+
+    .contactLink{
+        margin-bottom: 40px;
     }
 }
